@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.main {
+    background-image: url(bg.jpg);
+    background-position: center center;
+    height: 664px;
+    background-size: max(1200px 100vw);
+    background-repeat: no-repeat;
+    position : relative;
+}
+.main .box{
+    opacity: 0.70;
+    height: 664px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: black;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    height: 50px;
+    padding: 20px;
+
+}
+nav span img{
+    width: 150px;
+    position: relative;
+    z-index: 1;
+}
+.hero {
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100% - 100px);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+.hero> :nth-child(1) {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 300;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.upbtn{
+    display: flex;
+    gap: 20px;
+}
+.btn{
+    padding: 3px 8px;
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius: 4px;
+    border: 1px solid rgba(160, 153, 153, 0.435);
+    cursor: pointer;
+    height: 40px;
+    width: 350px;
+    gap: 215px;
+}
+.btn-red{
+    background-color: rgb(229 9 12);
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;    
+    color: white;
+    position: relative;
+    font-size: 23px;
+    z-index: 10;
+    border: 0px;
+    width: 190px;
+    height: 50px;
+}
+.align{
+    align-items: center;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    
+}
+.btnone{
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius: 4px;
+    border: 1px solid rgba(248, 243, 243, 0.501);
+    color: white; 
+    cursor: pointer;
+    width: 120px;
+    height: 30px;
+    font-weight: 400;
+}
+
+.btn-red-sm {
+    background-color: rgb(229 9 12);
+    color: white;
+    position: relative;
+    z-index: 10;
+    border: 0px;
+    border-radius: 4px;
+    width: 90px;
+    height: 30px;
+}
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.seperation{
+    height: 7px;
+    background-color: rgb(40, 37, 37);
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.secImg {
+    position: relative;
+    
+}
+
+.secImg img {
+    width: 35vw;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video {
+    position: absolute;
+    top: 55px;
+    right: 0px;
+    width: 35vw;
+    height: 195px;
+}
+section{
+    height: 520px;
+}
+section.first > div{
+    display: flex;
+    flex-direction: column;
+}
+section.first > div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section.first > div :nth-child(2){
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+
+}
+section.fourth{
+    height: 450px;
+}
+.thirdvideo video{
+        top: 10px;
+        right: 55px;
+        width: 27vw;
+        height: 170px;
+}
+
+.thirdvideo img{
+    width: 35vw;
+}
+section.second{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.second .seccont > :nth-child(1){
+    font-family: "Noto Sans", sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+}
+section.second .seccont{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    flex-direction: column;
+}
+section.FAQ{
+    display: flex;
+    justify-content: end;
+}
+.FAQ{
+    display: flex;
+    justify-content: center;
+    font-family: "Noto Sans";
+}
+section.faq{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    font-family: "Noto Sans";
+} 
+.faq h2{
+    font-size: 40px;;
+}
+.faqbox:hover{
+background-color: rgb(67, 61, 61);
+}
+
+.faqbox{
+    transition: all 1s ease-out;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 70vw;
+    height: 20px;
+    margin: 8px auto;
+    cursor: pointer;
+}
+
+.end .p{
+    margin-top: 35px;
+    font-size: 15px;
+    margin-left: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.btnend{
+    margin-top: 20px;
+    width: 250px;
+    margin-left: 470px;
+    margin-bottom: 40px;
+}
+
+.btnrend{
+    width: 170px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    height: 42px;
+}
+footer span{
+    color: rgba(171, 165, 165);
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 260px;
+
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    height: 200px;
+    gap: 100px;
+}
+
+.footer-item{
+    margin-top: 10px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: underline;
+    color: rgb(171, 165, 165);
+    font-family: "arial";
+    font-size: 12px;
+    font-weight: 100;
+}
